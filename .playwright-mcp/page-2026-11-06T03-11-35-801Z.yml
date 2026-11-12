@@ -1,0 +1,120 @@
+- main [ref=f10e2]:
+  - generic [ref=f10e5]:
+    - generic [ref=f10e6]:
+      - heading "Make Room for a Good Conversation & Earning" [level=1] [ref=f10e7]:
+        - text: Make Room for a Good
+        - generic [ref=f10e8]: Conversation & Earning
+      - paragraph [ref=f10e9]: Drop into live voice rooms, meet new people, talk, sing, and laugh together. Send gifts, open a room of your own, or explore the host and agent opportunities available on Kaya Chat.
+      - paragraph [ref=f10e10]: Whether you want to join the conversation or help build a host team, there’s a way for you to get involved.
+      - generic [ref=f10e11]:
+        - link "Download Kaya Chat" [ref=f10e12] [cursor=pointer]:
+          - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+        - link "Explore Host & Agent Roles" [ref=f10e13] [cursor=pointer]:
+          - /url: "#host-vs-agents"
+    - generic [ref=f10e15]:
+      - img "Kaya Chat - Glossy Voice Party App Promo" [ref=f10e16]
+      - generic [aria-hidden]: Click to expand
+  - generic [ref=f10e19]:
+    - generic [ref=f10e21]:
+      - img "Kaya - Ecosystem" [ref=f10e22]
+      - generic [aria-hidden]: Click to expand
+    - generic [ref=f10e23]:
+      - generic [ref=f10e24]: Overview
+      - heading "What is Kaya Chat?" [level=2] [ref=f10e25]
+      - paragraph [ref=f10e26]: Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.
+      - paragraph [ref=f10e27]: Join conversations, interact with others, send gifts, earn coins, and climb the leaderboard. Want an active role? You can host your own room or explore becoming an agent who helps build and support a team of hosts.
+      - link "Download Kaya Chat" [ref=f10e29] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+  - generic [ref=f10e31]:
+    - generic [ref=f10e32]:
+      - generic [ref=f10e33]: Platform Highlights
+      - heading "Various Ways to Join the Conversation" [level=2] [ref=f10e34]
+    - generic [ref=f10e35]:
+      - generic [ref=f10e36]:
+        - generic [ref=f10e37]: "1"
+        - heading "Join live voice rooms and meet new people." [level=4] [ref=f10e38]
+      - generic [ref=f10e39]:
+        - generic [ref=f10e40]: "2"
+        - heading "Talk, sing, laugh, and take part in conversations." [level=4] [ref=f10e41]
+      - generic [ref=f10e42]:
+        - generic [ref=f10e43]: "3"
+        - heading "Send gifts and participate in room activities." [level=4] [ref=f10e44]
+      - generic [ref=f10e45]:
+        - generic [ref=f10e46]: "4"
+        - heading "Host your own room and explore host rewards." [level=4] [ref=f10e47]
+      - generic [ref=f10e48]:
+        - generic [ref=f10e49]: "5"
+        - heading "Build and support a host team as a Kaya Chat agent." [level=4] [ref=f10e50]
+  - generic [ref=f10e52]:
+    - generic [ref=f10e53]:
+      - generic [ref=f10e54]: Roles Comparison
+      - heading "Two Different Ways to Get Involved" [level=2] [ref=f10e55]
+    - table [ref=f10e57]:
+      - rowgroup [ref=f10e58]:
+        - row [ref=f10e59]:
+          - columnheader [ref=f10e60]
+          - columnheader "Kaya Chat Host" [ref=f10e61]
+          - columnheader "Kaya Chat Agent" [ref=f10e62]
+      - rowgroup [ref=f10e63]:
+        - row [ref=f10e64]:
+          - cell "Main role" [ref=f10e65]
+          - cell "Participate in voice rooms, host conversations." [ref=f10e66]
+          - cell "Build and manage a host team, invite hosts and sub-agents" [ref=f10e67]
+        - row [ref=f10e68]:
+          - cell "Main activities" [ref=f10e69]
+          - cell "Spend time on the mic, interact with participants, and complete tasks." [ref=f10e70]
+          - cell "Invite hosts, support their activity, guide content quality" [ref=f10e71]
+        - row [ref=f10e72]:
+          - cell "Earning options" [ref=f10e73]
+          - cell "Mic-time rewards, the 7-Day Income Task, gifts , invitation rewards, and ranking bonuses." [ref=f10e74]
+          - cell "Agency commissions, game and invitation rewards, and agency event bonuses." [ref=f10e75]
+        - row [ref=f10e76]:
+          - cell "Best suited for" [ref=f10e77]
+          - cell "People who want to participate in live voice rooms and host conversations." [ref=f10e78]
+          - cell "People who want to organize, support, and grow a team of hosts." [ref=f10e79]
+    - generic [ref=f10e80]:
+      - link "Explore the Host Page" [ref=f10e81] [cursor=pointer]:
+        - /url: /host
+      - link "Explore the Agent Page" [ref=f10e82] [cursor=pointer]:
+        - /url: /agent
+  - generic [ref=f10e84]:
+    - generic [ref=f10e85]:
+      - generic [ref=f10e86]: Platform Reach
+      - heading "Get to Know Kaya Chat" [level=2] [ref=f10e87]
+    - generic [ref=f10e88]:
+      - generic [ref=f10e89]:
+        - generic [ref=f10e90]: 500K+
+        - generic [ref=f10e91]: Downloads on Google Play
+      - generic [ref=f10e92]:
+        - generic [ref=f10e93]: 2K+
+        - generic [ref=f10e94]: Reviews on Google Play
+  - generic [ref=f10e96]:
+    - generic [ref=f10e97]:
+      - generic [ref=f10e98]: Got Questions?
+      - heading "Questions About Kaya Chat, Hosts, and Agents" [level=2] [ref=f10e99]
+    - generic [ref=f10e100]:
+      - generic [ref=f10e101]:
+        - button [ref=f10e102] [cursor=pointer]:
+          - heading "What is Kaya Chat?" [level=4] [ref=f10e103]
+          - generic [aria-hidden] [ref=f10e104]: ▾
+        - paragraph [ref=f10e105]: Kaya Chat is a live voice party app where you can join voice rooms, meet new people, send virtual gifts, earn coins, and climb leaderboards. You can also host your own room or explore opportunities to build and support a host team.
+      - generic [ref=f10e106]:
+        - button [ref=f10e107] [cursor=pointer]:
+          - heading "What is the difference between a Kaya Chat host and an agent?" [level=4] [ref=f10e108]
+          - generic [aria-hidden] [ref=f10e109]: ▾
+        - paragraph [ref=f10e110]: A host focuses on voice-room activities, interacting with participants, and completing host tasks. An agent focuses on building and supporting a team of hosts, inviting hosts and sub-agents, and managing team activity. Each role has its own earning options and requirements.
+      - generic [ref=f10e111]:
+        - button [ref=f10e112] [cursor=pointer]:
+          - heading "Can a Kaya Chat agent also become a host?" [level=4] [ref=f10e113]
+          - generic [aria-hidden] [ref=f10e114]: ▾
+        - paragraph [ref=f10e115]: Yes. Agent accounts can also be used to host live sessions. An agent can therefore explore hosting while continuing to support a host team.
+  - generic [ref=f10e118]:
+    - heading "Your Next Conversation & Earning Starts on Kaya Chat" [level=2] [ref=f10e119]:
+      - text: Your Next Conversation & Earning Starts on
+      - generic [ref=f10e120]: Kaya Chat
+    - paragraph [ref=f10e121]: Start with a conversation. Find the role that suits you. See where Kaya Chat takes you.
+    - generic [ref=f10e122]:
+      - link "Become a Host" [ref=f10e123] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+      - link "Become an Agent" [ref=f10e124] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/applyinvatefamily?user_id=10244362&language=en

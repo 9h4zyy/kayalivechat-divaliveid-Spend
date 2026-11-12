@@ -1,0 +1,6 @@
+- banner [ref=f35e2]:
+  - navigation "Main Navigation" [ref=f35e3]:
+    - link "Kaya Chat Homepage" [ref=f35e5] [cursor=pointer]:
+      - /url: /
+      - img "Kaya Chat Official Logo" [ref=f35e6]
+    - button "Toggle navigation menu" [ref=f35e8] [cursor=pointer]

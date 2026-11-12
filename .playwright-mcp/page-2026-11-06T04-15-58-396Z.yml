@@ -1,0 +1,131 @@
+- main [ref=f24e2]:
+  - generic [ref=f24e5]:
+    - generic [ref=f24e6]:
+      - heading "Bring Your Voice to Kaya Chat" [level=1] [ref=f24e7]:
+        - text: Bring Your Voice to
+        - generic [ref=f24e8]: Kaya Chat
+      - paragraph [ref=f24e9]: Meet new people, host live voice conversations, and make every room more engaging. As a Kaya Chat Host, you can take part in host tasks, receive eligible gift rewards, and explore different earning opportunities.
+      - link "Become a Host" [ref=f24e11] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+    - generic [ref=f24e13]:
+      - img "Kaya Chat - Neon Social Live App Showcase" [ref=f24e14]
+      - generic [aria-hidden]: Click to expand
+  - generic [ref=f24e16]:
+    - generic [ref=f24e17]:
+      - generic [ref=f24e18]: Reward Streams
+      - heading "Explore Ways to Earn on Kaya Chat" [level=2] [ref=f24e19]
+    - generic [ref=f24e20]:
+      - generic [ref=f24e21]: Basic Mic-Time Rewards
+      - generic [ref=f24e27]: 7-Day Income Task
+      - generic [ref=f24e32]: 70% Deluxe Gift Share
+      - generic [ref=f24e40]: 2% or 5% Lucky Gift Share
+      - generic [ref=f24e45]: +1% Host Room Owner Bonus
+      - generic [ref=f24e51]: 0.1% to 0.3% Game Invitation Commission
+      - generic [ref=f24e58]: 3% and 1% Top-Up Invitation Commission
+      - generic [ref=f24e63]: Host Invitation Bonus
+      - generic [ref=f24e71]: Task and Ranking Rewards
+    - generic [ref=f24e78]:
+      - img "Kaya - Host Role" [ref=f24e79]
+      - generic [aria-hidden]: Click to expand
+  - generic [ref=f24e81]:
+    - generic [ref=f24e82]:
+      - generic [ref=f24e83]: Registration Guide
+      - heading "How to Become a Host and Join an Agency" [level=2] [ref=f24e84]
+    - generic [ref=f24e85]:
+      - generic [ref=f24e86]:
+        - generic [ref=f24e87]:
+          - generic [ref=f24e88]: "1"
+          - generic [ref=f24e89]:
+            - strong [ref=f24e90]: Download Kaya Chat.
+            - text: Find it on Google Play or the App Store, or
+            - link "use an official referral link" [ref=f24e91] [cursor=pointer]:
+              - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+            - text: .
+        - generic [ref=f24e92]:
+          - generic [ref=f24e93]: "2"
+          - generic [ref=f24e94]:
+            - strong [ref=f24e95]: Create your account.
+            - text: Sign up with Google or your phone number. Google sign-up is recommended.
+        - generic [ref=f24e96]:
+          - generic [ref=f24e97]: "3"
+          - generic [ref=f24e98]:
+            - strong [ref=f24e99]: Complete your profile.
+            - text: Fill in the required information.
+        - generic [ref=f24e100]:
+          - generic [ref=f24e101]: "4"
+          - generic [ref=f24e102]:
+            - strong [ref=f24e103]: Open your profile.
+            - text: Tap Become a Host.
+        - generic [ref=f24e104]:
+          - generic [ref=f24e105]: "5"
+          - generic [ref=f24e106]:
+            - strong [ref=f24e107]: Verify your identity.
+            - text: Select Real Person Verification and follow the instructions.
+        - generic [ref=f24e108]:
+          - generic [ref=f24e109]: "6"
+          - generic [ref=f24e110]:
+            - strong [ref=f24e111]: Join an agency
+            - text: via “Profile” > “Become a Host” > “Join Agency” enter the invitation code provided to you (
+            - generic [ref=f24e112] [cursor=pointer]: CVK6M5
+            - text: ), and tap Confirm.
+      - generic [ref=f24e114]:
+        - img "Kaya Chat - Host Registration" [ref=f24e115]
+        - generic [aria-hidden]: Click to expand
+  - generic [ref=f24e117]:
+    - generic [ref=f24e118]:
+      - generic [ref=f24e119]: Identity Verification
+      - heading "Kaya Chat Face Verification Tutorial" [level=2] [ref=f24e120]
+    - generic [ref=f24e121]:
+      - generic [ref=f24e123]:
+        - img "Kaya Chat - Face Verification Tutorial" [ref=f24e124]
+        - generic [aria-hidden]: Click to expand
+      - generic [ref=f24e125]:
+        - generic [ref=f24e126]:
+          - generic [ref=f24e127]: "1"
+          - generic [ref=f24e128]: Open Kaya Chat and go to your Profile or Me page.
+        - generic [ref=f24e129]:
+          - generic [ref=f24e130]: "2"
+          - generic [ref=f24e131]: Tap Become a Host.
+        - generic [ref=f24e132]:
+          - generic [ref=f24e133]: "3"
+          - generic [ref=f24e134]: Select Real Person Verification.
+        - generic [ref=f24e135]:
+          - generic [ref=f24e136]: "4"
+          - generic [ref=f24e137]: Upload your own photo.
+        - generic [ref=f24e138]:
+          - generic [ref=f24e139]: "5"
+          - generic [ref=f24e140]: Tap Start Verification.
+        - generic [ref=f24e141]:
+          - generic [ref=f24e142]: "6"
+          - generic [ref=f24e143]: Follow the on-screen instructions. Keep your face clearly visible without a mask, sunglasses, or camera filters.
+        - generic [ref=f24e144]:
+          - generic [ref=f24e145]: "7"
+          - generic [ref=f24e146]: Once verification succeeds, tap Next to finish.
+  - generic [ref=f24e148]:
+    - generic [ref=f24e149]:
+      - generic [ref=f24e150]: Got Questions?
+      - heading "Frequently Asked Questions" [level=2] [ref=f24e151]
+    - generic [ref=f24e152]:
+      - generic [ref=f24e153]:
+        - button [ref=f24e154] [cursor=pointer]:
+          - heading "1. What does a Kaya Chat Host do?" [level=4] [ref=f24e155]
+          - generic [aria-hidden] [ref=f24e156]: ▾
+        - paragraph [ref=f24e157]: A host participates in live voice rooms, interacts with people, and can host conversations of their own.
+      - generic [ref=f24e158]:
+        - button [ref=f24e159] [cursor=pointer]:
+          - heading "2. How do I become a Kaya Chat Host?" [level=4] [ref=f24e160]
+          - generic [aria-hidden] [ref=f24e161]: ▾
+        - paragraph [ref=f24e162]: Download the app, create an account, complete your profile and real-person verification, then join an agency using its invitation code.
+      - generic [ref=f24e163]:
+        - button [ref=f24e164] [cursor=pointer]:
+          - heading "3. Can I earn money as a Kaya Chat Host?" [level=4] [ref=f24e165]
+          - generic [aria-hidden] [ref=f24e166]: ▾
+        - paragraph [ref=f24e167]: Hosts can qualify for mic-time rewards, gift sharing, income tasks, invitation commissions, and ranking rewards. Actual earnings depend on eligibility and the applicable rules.
+  - generic [ref=f24e170]:
+    - heading "Ready to Become a Kaya Chat Host ?" [level=2] [ref=f24e171]:
+      - text: Ready to Become a
+      - generic [ref=f24e172]: Kaya Chat Host
+      - text: "?"
+    - paragraph [ref=f24e173]: Join live conversations, welcome new people, and discover the host activities and rewards available to you.
+    - link "Start Host Registration" [ref=f24e175] [cursor=pointer]:
+      - /url: https://h5.kayachat.live/invateshare?parent_id=10244362

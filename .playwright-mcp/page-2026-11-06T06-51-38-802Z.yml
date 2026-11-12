@@ -1,0 +1,43 @@
+- contentinfo [ref=f33e2]:
+  - generic [ref=f33e3]:
+    - generic [ref=f33e4]:
+      - generic [ref=f33e5]:
+        - link "Kaya Chat Homepage" [ref=f33e6] [cursor=pointer]:
+          - /url: /
+          - img "Kaya Chat Logo" [ref=f33e7]
+        - paragraph [ref=f33e8]: Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.
+      - generic [ref=f33e9]:
+        - heading "Quick Links" [level=4] [ref=f33e10]
+        - list [ref=f33e11]:
+          - listitem [ref=f33e12]:
+            - link "Homepage" [ref=f33e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f33e14]:
+            - link "Host" [ref=f33e15] [cursor=pointer]:
+              - /url: /host
+          - listitem [ref=f33e16]:
+            - link "Agent" [ref=f33e17] [cursor=pointer]:
+              - /url: /agent
+          - listitem [ref=f33e18]:
+            - link "Contact" [ref=f33e19] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f33e20]:
+        - heading "Contact & Support" [level=4] [ref=f33e21]
+        - generic [ref=f33e22]:
+          - link "Instagram" [ref=f33e23] [cursor=pointer]:
+            - /url: https://www.instagram.com/kayalivechat
+          - link "TikTok" [ref=f33e26] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@kayalivechat
+          - link "Facebook" [ref=f33e29] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+          - link "Threads" [ref=f33e32] [cursor=pointer]:
+            - /url: https://www.threads.com/@kayalivechat
+          - link "YouTube" [ref=f33e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kayalivechat
+          - link "WhatsApp" [ref=f33e38] [cursor=pointer]:
+            - /url: http://wa.me/6285285312276
+          - link "Telegram" [ref=f33e41] [cursor=pointer]:
+            - /url: https://t.me/KayaChatService
+    - generic [ref=f33e44]:
+      - paragraph [ref=f33e45]: © 2026 Kaya Chat. All rights reserved.
+      - button "Back to Top" [ref=f33e46] [cursor=pointer]

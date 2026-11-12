@@ -1,0 +1,20 @@
+- banner [ref=f31e1]:
+  - navigation "Main Navigation" [ref=f31e2]:
+    - link "Kaya Chat Homepage" [ref=f31e4] [cursor=pointer]:
+      - /url: /
+      - img "Kaya Chat Official Logo" [ref=f31e5]
+    - generic [ref=f31e15]:
+      - link "Download App" [ref=f31e16] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+      - button "Toggle navigation menu" [expanded] [active] [ref=f31e17] [cursor=pointer]
+  - generic [ref=f31e21]:
+    - link "Home" [ref=f31e22] [cursor=pointer]:
+      - /url: /
+    - link "Host" [ref=f31e23] [cursor=pointer]:
+      - /url: /host
+    - link "Agent" [ref=f31e24] [cursor=pointer]:
+      - /url: /agent
+    - link "Contact" [ref=f31e25] [cursor=pointer]:
+      - /url: /contact
+    - link "Download Kaya Chat" [ref=f31e26] [cursor=pointer]:
+      - /url: https://h5.kayachat.live/invateshare?parent_id=10244362

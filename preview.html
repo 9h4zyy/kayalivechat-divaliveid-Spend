@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaya Chat - Full Website Interactive Preview (Dark Cosmic &amp; Holographic Glass)</title>
+  <meta name="description" content="Interactive preview of Kaya Chat website with dark cosmic aesthetic and holographic glass cards.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Sticky Preview Toolbar for Local Testing -->
+  <aside class="preview-toolbar-sticky" aria-label="Preview Navigation Bar">
+    <div class="preview-toolbar-info">
+      <span class="preview-toolbar-badge">Kaya Live Preview</span>
+      <span>Dark Cosmic &amp; Holographic Glass</span>
+    </div>
+    <div class="preview-toolbar-tabs" role="tablist">
+      <button type="button" class="preview-toolbar-btn active" data-target="view-home" role="tab" aria-selected="true">Page Home (/)</button>
+      <button type="button" class="preview-toolbar-btn" data-target="view-host" role="tab" aria-selected="false">Page Host (/host)</button>
+      <button type="button" class="preview-toolbar-btn" data-target="view-agent" role="tab" aria-selected="false">Page Agent (/agent)</button>
+      <button type="button" class="preview-toolbar-btn" data-target="view-contact" role="tab" aria-selected="false">Page Contact (/contact)</button>
+    </div>
+  </aside>
+
+  <!-- Global Header Component (From header.html) -->
+  <header class="kaya-header" id="site-header" style="position: relative; top: auto; margin-top: 15px;">
+    <nav class="kaya-navbar" aria-label="Main Navigation">
+      <div class="navbar-brand">
+        <a href="/" data-view-target="view-home" aria-label="Kaya Chat Homepage">
+          <img 
+            src="http://kayachatlive.com/wp-content/uploads/2026/11/logo-kaya.webp" 
+            alt="Kaya Chat Official Logo" 
+            class="navbar-logo"
+            width="44"
+            height="44"
+          >
+        </a>
+      </div>
+
+      <ul class="navbar-nav">
+        <li><a href="/" class="nav-link active" data-view-target="view-home" id="nav-home">Home</a></li>
+        <li><a href="/host" class="nav-link" data-view-target="view-host" id="nav-host">Host</a></li>
+        <li><a href="/agent" class="nav-link" data-view-target="view-agent" id="nav-agent">Agent</a></li>
+        <li><a href="/contact" class="nav-link" data-view-target="view-contact" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar-actions">
+        <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-download">
+          Download App
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobileDrawer" aria-hidden="true">
+      <a href="/" class="nav-link active" data-view-target="view-home">Home</a>
+      <a href="/host" class="nav-link" data-view-target="view-host">Host</a>
+      <a href="/agent" class="nav-link" data-view-target="view-agent">Agent</a>
+      <a href="/contact" class="nav-link" data-view-target="view-contact">Contact</a>
+      <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-center">
+        Download Kaya Chat
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== VIEW 1: HOME PAGE ==================== -->
+  <div class="preview-view-container active-view" id="view-home">
+    <main class="kaya-page-main">
+      <!-- Hero Section -->
+      <section class="hero-section section-spacing" style="padding-top: 60px;">
+        <div class="holo-prism-orb holo-prism-1" aria-hidden="true"></div>
+        <div class="holo-prism-orb holo-prism-2" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <h1>Make Room for a Good <span class="gradient-text">Conversation &amp; Earning</span></h1>
+              <p>Drop into live voice rooms, meet new people, talk, sing, and laugh together. Send gifts, open a room of your own, or explore the host and agent opportunities available on Kaya Chat.</p>
+              <p>Whether you want to join the conversation or help build a host team, there’s a way for you to get involved.</p>
+              <div class="btn-group">
+                <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Download Kaya Chat
+                </a>
+                <a href="#host-vs-agents-preview" class="btn btn-secondary">
+                  Explore Host &amp; Agent Roles
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrap">
+              <div class="hero-preview-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Glossy-Voice-Party-App-Promo.png" data-caption="Kaya Chat - Glossy Voice Party App Promo">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Glossy-Voice-Party-App-Promo.png" 
+                  alt="Kaya Chat - Glossy Voice Party App Promo" 
+                  width="1024" 
+                  height="1536"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What is Kaya Chat Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="section-image-wrap">
+              <div class="holo-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Ecosystem.png" data-caption="Kaya - Ecosystem">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Ecosystem.png" 
+                  alt="Kaya - Ecosystem" 
+                  width="800" 
+                  height="600"
+                  loading="lazy"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-content">
+              <span class="section-badge">Overview</span>
+              <h2>What is Kaya Chat?</h2>
+              <p>Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.</p>
+              <p>Join conversations, interact with others, send gifts, earn coins, and climb the leaderboard. Want an active role? You can host your own room or explore becoming an agent who helps build and support a team of hosts.</p>
+              <div class="btn-group" style="margin-top: 24px;">
+                <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Download Kaya Chat
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kaya Chat Benefits Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Platform Highlights</span>
+            <h2>Various Ways to Join the Conversation</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <div class="benefit-num">1</div>
+              <h4>Join live voice rooms and meet new people.</h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-num">2</div>
+              <h4>Talk, sing, laugh, and take part in conversations.</h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-num">3</div>
+              <h4>Send gifts and participate in room activities.</h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-num">4</div>
+              <h4>Host your own room and explore host rewards.</h4>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-num">5</div>
+              <h4>Build and support a host team as a Kaya Chat agent.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kaya Chat Host vs Agents Section -->
+      <section class="section-spacing" id="host-vs-agents-preview">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Roles Comparison</span>
+            <h2>Two Different Ways to Get Involved</h2>
+          </div>
+
+          <div class="table-responsive-wrapper">
+            <table class="custom-comparison-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Kaya Chat Host</th>
+                  <th>Kaya Chat Agent</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Main role</td>
+                  <td>Participate in voice rooms, host conversations.</td>
+                  <td>Build and manage a host team, invite hosts and sub-agents</td>
+                </tr>
+                <tr>
+                  <td>Main activities</td>
+                  <td>Spend time on the mic, interact with participants, and complete tasks.</td>
+                  <td>Invite hosts, support their activity, guide content quality</td>
+                </tr>
+                <tr>
+                  <td>Earning options</td>
+                  <td>Mic-time rewards, the 7-Day Income Task, gifts , invitation rewards, and ranking bonuses.</td>
+                  <td>Agency commissions, game and invitation rewards, and agency event bonuses.</td>
+                </tr>
+                <tr>
+                  <td>Best suited for</td>
+                  <td>People who want to participate in live voice rooms and host conversations.</td>
+                  <td>People who want to organize, support, and grow a team of hosts.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="btn-group" style="justify-content: center; margin-top: 36px;">
+            <button type="button" class="btn btn-primary" data-view-target="view-host">Explore the Host Page</button>
+            <button type="button" class="btn btn-secondary" data-view-target="view-agent">Explore the Agent Page</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kaya Chat Stats Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Platform Reach</span>
+            <h2>Get to Know Kaya Chat</h2>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">500K+</div>
+              <div class="stat-label">Downloads on Google Play</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2K+</div>
+              <div class="stat-label">Reviews on Google Play</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Got Questions?</span>
+            <h2>Questions About Kaya Chat, Hosts, and Agents</h2>
+          </div>
+
+          <div class="faq-accordion">
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>What is Kaya Chat?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>Kaya Chat is a live voice party app where you can join voice rooms, meet new people, send virtual gifts, earn coins, and climb leaderboards. You can also host your own room or explore opportunities to build and support a host team.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>What is the difference between a Kaya Chat host and an agent?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>A host focuses on voice-room activities, interacting with participants, and completing host tasks. An agent focuses on building and supporting a team of hosts, inviting hosts and sub-agents, and managing team activity. Each role has its own earning options and requirements.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>Can a Kaya Chat agent also become a host?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>Yes. Agent accounts can also be used to host live sessions. An agent can therefore explore hosting while continuing to support a host team.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-banner-section section-spacing">
+        <div class="container">
+          <div class="cta-banner-card">
+            <h2>Your Next Conversation &amp; Earning Starts on <span class="gradient-text">Kaya Chat</span></h2>
+            <p>Start with a conversation. Find the role that suits you. See where Kaya Chat takes you.</p>
+            <div class="btn-group" style="justify-content: center;">
+              <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Become a Host
+              </a>
+              <a href="https://h5.kayachat.live/applyinvatefamily?user_id=10244362&amp;language=en" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Become an Agent
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ==================== VIEW 2: HOST PAGE ==================== -->
+  <div class="preview-view-container" id="view-host">
+    <main class="kaya-page-main">
+      <!-- Hero Section -->
+      <section class="hero-section section-spacing" style="padding-top: 60px;">
+        <div class="holo-prism-orb holo-prism-1" aria-hidden="true"></div>
+        <div class="holo-prism-orb holo-prism-3" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <h1>Bring Your Voice to <span class="gradient-text">Kaya Chat</span></h1>
+              <p>Meet new people, host live voice conversations, and make every room more engaging. As a Kaya Chat Host, you can take part in host tasks, receive eligible gift rewards, and explore different earning opportunities.</p>
+              <div class="btn-group">
+                <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Become a Host
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrap">
+              <div class="hero-preview-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Neon-Social-Live-App-Showcase.png" data-caption="Kaya Chat - Neon Social Live App Showcase">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Neon-Social-Live-App-Showcase.png" 
+                  alt="Kaya Chat - Neon Social Live App Showcase" 
+                  width="1280" 
+                  height="1229"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Host Earning Sources List Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Reward Streams</span>
+            <h2>Explore Ways to Earn on Kaya Chat</h2>
+          </div>
+
+          <div class="earning-sources-list">
+            <div class="earning-source-item"><div class="earning-source-text">Basic Mic-Time Rewards</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">7-Day Income Task</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">70% Deluxe Gift Share</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">2% or 5% Lucky Gift Share</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">+1% Host Room Owner Bonus</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">0.1% to 0.3% Game Invitation Commission</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">3% and 1% Top-Up Invitation Commission</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">Host Invitation Bonus</div></div>
+            <div class="earning-source-item"><div class="earning-source-text">Task and Ranking Rewards</div></div>
+          </div>
+
+          <div style="margin-top: 48px; text-align: center;">
+            <div class="holo-card lightbox-trigger" style="display: inline-block; max-width: 900px;" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Host-Role.png" data-caption="Kaya - Host Role">
+              <img 
+                src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Host-Role.png" 
+                alt="Kaya - Host Role" 
+                width="800" 
+                height="600"
+                loading="lazy"
+              >
+              <div class="lightbox-badge-hint" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                Click to expand
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How to Become a Host and Join Agency Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Registration Guide</span>
+            <h2>How to Become a Host and Join an Agency</h2>
+          </div>
+
+          <div class="hero-grid">
+            <div class="steps-timeline">
+              <div class="step-card"><div class="step-badge">1</div><div class="step-content"><strong>Download Kaya Chat.</strong> Find it on Google Play or the App Store, or <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" style="color: var(--kaya-cyan); text-decoration: underline;">use an official referral link</a>.</div></div>
+              <div class="step-card"><div class="step-badge">2</div><div class="step-content"><strong>Create your account.</strong> Sign up with Google or your phone number. Google sign-up is recommended.</div></div>
+              <div class="step-card"><div class="step-badge">3</div><div class="step-content"><strong>Complete your profile.</strong> Fill in the required information.</div></div>
+              <div class="step-card"><div class="step-badge">4</div><div class="step-content"><strong>Open your profile.</strong> Tap Become a Host.</div></div>
+              <div class="step-card"><div class="step-badge">5</div><div class="step-content"><strong>Verify your identity.</strong> Select Real Person Verification and follow the instructions.</div></div>
+              <div class="step-card"><div class="step-badge">6</div><div class="step-content"><strong>Join an agency</strong> via “Profile” &gt; “Become a Host” &gt; “Join Agency” enter the invitation code provided to you (<span class="code-pill">CVK6M5</span>), and tap Confirm.</div></div>
+            </div>
+
+            <div class="section-image-wrap">
+              <div class="holo-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Host-Registration.png" data-caption="Kaya Chat - Host Registration">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Host-Registration.png" 
+                  alt="Kaya Chat - Host Registration" 
+                  width="800" 
+                  height="600"
+                  loading="lazy"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Face Verification Tutorial Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Identity Verification</span>
+            <h2>Kaya Chat Face Verification Tutorial</h2>
+          </div>
+
+          <div class="hero-grid">
+            <div class="section-image-wrap">
+              <div class="holo-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-AgentHost-Face-Verification.png" data-caption="Kaya Chat - Face Verification Tutorial">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-AgentHost-Face-Verification.png" 
+                  alt="Kaya Chat - Face Verification Tutorial" 
+                  width="800" 
+                  height="600"
+                  loading="lazy"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+
+            <div class="steps-timeline">
+              <div class="step-card"><div class="step-badge">1</div><div class="step-content">Open Kaya Chat and go to your Profile or Me page.</div></div>
+              <div class="step-card"><div class="step-badge">2</div><div class="step-content">Tap Become a Host.</div></div>
+              <div class="step-card"><div class="step-badge">3</div><div class="step-content">Select Real Person Verification.</div></div>
+              <div class="step-card"><div class="step-badge">4</div><div class="step-content">Upload your own photo.</div></div>
+              <div class="step-card"><div class="step-badge">5</div><div class="step-content">Tap Start Verification.</div></div>
+              <div class="step-card"><div class="step-badge">6</div><div class="step-content">Follow the on-screen instructions. Keep your face clearly visible without a mask, sunglasses, or camera filters.</div></div>
+              <div class="step-card"><div class="step-badge">7</div><div class="step-content">Once verification succeeds, tap Next to finish.</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Got Questions?</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+
+          <div class="faq-accordion">
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>1. What does a Kaya Chat Host do?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>A host participates in live voice rooms, interacts with people, and can host conversations of their own.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>2. How do I become a Kaya Chat Host?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>Download the app, create an account, complete your profile and real-person verification, then join an agency using its invitation code.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>3. Can I earn money as a Kaya Chat Host?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>Hosts can qualify for mic-time rewards, gift sharing, income tasks, invitation commissions, and ranking rewards. Actual earnings depend on eligibility and the applicable rules.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-banner-section section-spacing">
+        <div class="container">
+          <div class="cta-banner-card">
+            <h2>Ready to Become a <span class="gradient-text">Kaya Chat Host</span>?</h2>
+            <p>Join live conversations, welcome new people, and discover the host activities and rewards available to you.</p>
+            <div class="btn-group" style="justify-content: center;">
+              <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Start Host Registration
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ==================== VIEW 3: AGENT PAGE ==================== -->
+  <div class="preview-view-container" id="view-agent">
+    <main class="kaya-page-main">
+      <!-- Hero Section -->
+      <section class="hero-section section-spacing" style="padding-top: 60px;">
+        <div class="holo-prism-orb holo-prism-1" aria-hidden="true"></div>
+        <div class="holo-prism-orb holo-prism-2" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <h1>Build Your Team. Grow Your <span class="gradient-text">Kaya Chat Agency.</span></h1>
+              <p>Bring hosts together, support their progress, and build an active community on Kaya Chat. As an agent, you can manage a host team, invite sub-agents, and qualify for agency commissions and rewards.</p>
+              <div class="btn-group">
+                <a href="https://h5.kayachat.live/applyinvatefamily?user_id=10244362&amp;language=en" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Apply as an Agent
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrap">
+              <div class="hero-preview-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Neon-Social-Live-App-Showcase.png" data-caption="Kaya Chat - Neon Social Live App Showcase">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Neon-Social-Live-App-Showcase.png" 
+                  alt="Kaya Chat - Neon Social Live App Showcase" 
+                  width="1280" 
+                  height="1229"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What is Kaya Agent Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="holo-card" style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <span class="section-badge">Leadership Overview</span>
+            <h2>What is Kaya Chat Agent?</h2>
+            <p style="margin-top: 16px; font-size: 1.15rem;">A Kaya Chat Agent helps recruit, organize, and support hosts on the platform. Your role is to guide host activity, encourage quality content, and help your team follow Kaya Chat's rules.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agency Registration Guide Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Step-by-Step Guide</span>
+            <h2>Kaya Chat Agent Registration Guide</h2>
+          </div>
+
+          <div class="hero-grid">
+            <div class="steps-timeline">
+              <div class="step-card"><div class="step-badge">1</div><div class="step-content"><strong>Download Kaya Chat</strong> from Google Play or the App Store, or open the <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" style="color: var(--kaya-cyan); text-decoration: underline;">referral link right here</a>.</div></div>
+              <div class="step-card"><div class="step-badge">2</div><div class="step-content"><strong>Sign up</strong> using a Google account or your phone number. Google sign-up is recommended .</div></div>
+              <div class="step-card"><div class="step-badge">3</div><div class="step-content"><strong>Fill in</strong> the required profile information.</div></div>
+              <div class="step-card"><div class="step-badge">4</div><div class="step-content"><strong>Open your Profile page</strong> and copy your Kaya ID.</div></div>
+              <div class="step-card"><div class="step-badge">5</div><div class="step-content"><strong>Open the</strong> <a href="https://h5.kayachat.live/applyinvatefamily?user_id=10244362&amp;language=en" target="_blank" rel="noopener noreferrer" style="color: var(--kaya-cyan); text-decoration: underline;">official agent application link</a>, then tap “Get” to request a verification code.</div></div>
+              <div class="step-card"><div class="step-badge">6</div><div class="step-content"><strong>Return to Kaya Chat</strong> and open the message menu.</div></div>
+              <div class="step-card"><div class="step-badge">7</div><div class="step-content"><strong>Tap “System Notification”</strong> and copy the verification code.</div></div>
+              <div class="step-card"><div class="step-badge">8</div><div class="step-content"><strong>Return to the application page</strong>, paste the code, and tap “Submit.”</div></div>
+              <div class="step-card"><div class="step-badge">9</div><div class="step-content"><strong>Open your Profile page</strong> and check “Agency Management” to view your agency information.</div></div>
+            </div>
+
+            <div class="section-image-wrap">
+              <div class="holo-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Agent-Registration.png" data-caption="Kaya - Agent Registration">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Agent-Registration.png" 
+                  alt="Kaya - Agent Registration" 
+                  width="800" 
+                  height="600"
+                  loading="lazy"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agent Earning Sources Table Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Revenue Model</span>
+            <h2>Explore How Kaya Chat Agent Earns</h2>
+          </div>
+
+          <div class="table-responsive-wrapper">
+            <table class="custom-comparison-table">
+              <thead>
+                <tr>
+                  <th style="width: 30%;">Earning source</th>
+                  <th>How it works</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Agency commission</td><td>Earn eligible commissions based on host gift income and your agency's applicable commission rate.</td></tr>
+                <tr><td>Sub-agency commission</td><td>Qualify for commission differences associated with eligible sub-agency activity.</td></tr>
+                <tr><td>Game invitation bonus</td><td>Earn rebates from qualifying game activity by invited users.</td></tr>
+                <tr><td>Host invitation bonus</td><td>Receive diamond rewards when invited hosts reach income milestones within 30 days.</td></tr>
+                <tr><td>Agency event bonus</td><td>Explore available opportunities through Agency Ranking and Events in the app.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Commission Ratio Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Commission Structure</span>
+            <h2>Agency Commission Ratio</h2>
+            <p>Your agency commission rate is linked to the valid diamond income generated by your team over the previous 30 days, excluding the current day.</p>
+          </div>
+
+          <div class="table-responsive-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Agency level</th>
+                  <th>Team gift income over the last 30 days</th>
+                  <th>Host income commission ratio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>D</strong></td><td>0–10M</td><td>12%</td></tr>
+                <tr><td><strong>C</strong></td><td>10M–50M</td><td>16%</td></tr>
+                <tr><td><strong>B</strong></td><td>50M–150M</td><td>18%</td></tr>
+                <tr><td><strong>A</strong></td><td>150M–300M</td><td>20%</td></tr>
+                <tr><td><strong>S</strong></td><td>More than 300M</td><td>22%</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="formula-box">
+            Notes: The commission calculation formula is:<br>
+            <strong>Agent commission = Host earnings &times; Commission rate</strong>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sub-agency Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Multi-Tier Growth</span>
+            <h2>Grow Beyond Your Direct Host Team</h2>
+            <p>You can invite other agents to build sub-agencies under your team.</p>
+          </div>
+
+          <div class="table-responsive-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Sub-agency level</th>
+                  <th>Effective income over the last 30 days</th>
+                  <th>Commission rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>D</strong></td><td>0–10M</td><td>12%</td></tr>
+                <tr><td><strong>C</strong></td><td>10M–50M</td><td>16%</td></tr>
+                <tr><td><strong>B</strong></td><td>50M–120M</td><td>18%</td></tr>
+                <tr><td><strong>A</strong></td><td>120M–300M</td><td>20%</td></tr>
+                <tr><td><strong>S</strong></td><td>More than 300M</td><td>22%</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Commission Ratio Examples Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Practical Breakdown</span>
+            <h2>Commission Ratio Examples</h2>
+          </div>
+
+          <div class="hero-grid">
+            <div class="section-image-wrap">
+              <div class="holo-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Agency-Commission-Example.png" data-caption="Kaya - Agency Commission Example">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Kaya-Agency-Commission-Example.png" 
+                  alt="Kaya - Agency Commission Example" 
+                  width="800" 
+                  height="600"
+                  loading="lazy"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+
+            <div class="holo-card" style="display: flex; flex-direction: column; gap: 20px;">
+              <div>
+                <h4 style="color: var(--kaya-cyan); margin-bottom: 8px;">1. Commission Rate Calculation</h4>
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 6px;">
+                  <li>&bull; A's effective total income = A + B + C + D + E + F + G + H + I + J + K = 395M (22% commission rate).</li>
+                  <li>&bull; B's effective total income = B + D + F + H + J = 148M (18% commission rate, as stated in the source).</li>
+                  <li>&bull; C's effective total income = C + E + G + I + K = 167M (20% commission rate).</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 style="color: var(--kaya-magenta); margin-bottom: 8px;">2. Sub-agent commission formula:</h4>
+                <p>&bull; Sub-agent commission = (Master agent commission rate − Sub-agent commission rate) &times; total income of (T2 + T3 + T4 + T5 + T6).</p>
+              </div>
+
+              <div>
+                <h4 style="color: var(--kaya-pink); margin-bottom: 8px;">3. Agent Commission from Sub-agents</h4>
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 6px;">
+                  <li>&bull; Commission A receives from B = (22% − 18%) &times; 148M = 5.92M.</li>
+                  <li>&bull; Commission A receives from C = (22% − 20%) &times; 167M = 3.34M.</li>
+                  <li>&bull; A's total commission from sub-agents = 5.92M + 3.34M = 9.26M, shown in the source as 926 USD.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agency Requirements Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Platform Standards</span>
+            <h2>Agency Requirements</h2>
+            <p>To work as an agency on Kaya Chat, you must follow the platform’s requirements</p>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card"><div class="benefit-num">1</div><h4>Minimum team: At least five active hosts.</h4></div>
+            <div class="benefit-card"><div class="benefit-num">2</div><h4>Active host definition: Two hours on the mic per day, four days per week.</h4></div>
+            <div class="benefit-card"><div class="benefit-num">3</div><h4>Host supervision: Guide hosts in creating quality content and ensure they follow platform rules.</h4></div>
+            <div class="benefit-card"><div class="benefit-num">4</div><h4>Recruitment rules: Recruiting hosts inside the app and promoting other apps are prohibited.</h4></div>
+            <div class="benefit-card"><div class="benefit-num">5</div><h4>Accountability: Agents may face penalties if their hosts violate platform rules.</h4></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs Section -->
+      <section class="section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Got Questions?</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+
+          <div class="faq-accordion">
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>1. What does a Kaya Chat Agent do?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>An agent builds and supports a host team, invites hosts and sub-agents, monitors team activity, and helps hosts follow platform rules.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>2. How can I earn as a Kaya Chat Agent?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>Eligible earning opportunities include agency commissions, sub-agency commissions, game invitation bonuses, host invitation rewards, and agency event bonuses.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <h4>3. How is the agency commission rate determined?</h4>
+                <span class="faq-icon" aria-hidden="true">&#9662;</span>
+              </button>
+              <div class="faq-answer">
+                <p>The rate is linked to the qualifying diamond income generated by the agency over the previous 30 days. The applicable level determines the commission percentage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-banner-section section-spacing">
+        <div class="container">
+          <div class="cta-banner-card">
+            <h2>Ready to Build Your <span class="gradient-text">Kaya Chat Agency</span>?</h2>
+            <p>Start exploring the agent opportunity, bring hosts together, and learn how to develop a team on Kaya Chat.</p>
+            <div class="btn-group" style="justify-content: center;">
+              <a href="https://h5.kayachat.live/applyinvatefamily?user_id=10244362&amp;language=en" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Become an Agent
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ==================== VIEW 4: CONTACT PAGE ==================== -->
+  <div class="preview-view-container" id="view-contact">
+    <main class="kaya-page-main">
+      <!-- Hero Section -->
+      <section class="hero-section section-spacing">
+        <div class="holo-prism-orb holo-prism-1" aria-hidden="true"></div>
+        <div class="holo-prism-orb holo-prism-2" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <h1>Get in Touch with Kaya Chat agency – <span class="gradient-text">We're Here to Help</span></h1>
+              <p>
+                Need help with Kaya Chat? Reach our team on WhatsApp, Instagram, or Facebook, or send a message through the contact form for app and account questions.
+              </p>
+              <div class="btn-group">
+                <a href="http://wa.me/6285285312276" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Chat on WhatsApp
+                </a>
+                <a href="https://t.me/KayaChatService" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  Telegram Support
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrap">
+              <div class="hero-preview-card lightbox-trigger" data-modal-target="http://kayachatlive.com/wp-content/uploads/2026/11/Ilustrasi-3D-Hubungi-Kami-dengan-Ikon-Dukungan.png" data-caption="Kaya Chat - Ilustrasi 3D Hubungi Kami dengan Ikon Dukungan">
+                <img 
+                  src="http://kayachatlive.com/wp-content/uploads/2026/11/Ilustrasi-3D-Hubungi-Kami-dengan-Ikon-Dukungan.png" 
+                  alt="Kaya Chat - Ilustrasi 3D Hubungi Kami dengan Ikon Dukungan" 
+                  width="1536" 
+                  height="1024"
+                >
+                <div class="lightbox-badge-hint" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to expand
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Official Channels Grid -->
+      <section class="section-spacing" style="padding-top: 0;">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Official Communication</span>
+            <h2>Reach Us Directly Across Official Platforms</h2>
+            <p>Choose your preferred communication platform to consult about host registration, agency onboarding, or app assistance.</p>
+          </div>
+
+          <div class="contact-channels-grid">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              </div>
+              <h4>WhatsApp Support</h4>
+              <p>Direct chat assistance for fast response on invitation codes, identity verification, and host onboarding.</p>
+              <a href="http://wa.me/6285285312276" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Open WhatsApp
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </div>
+              <h4>Telegram Channel</h4>
+              <p>Connect with the official Kaya Chat agency service for announcements, guidelines, and updates.</p>
+              <a href="https://t.me/KayaChatService" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Open Telegram
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </div>
+              <h4>Instagram Direct</h4>
+              <p>Follow official highlights, send direct messages, and discover featured top hosts in our community.</p>
+              <a href="https://www.instagram.com/kayalivechat" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Visit Instagram
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </div>
+              <h4>Facebook Page</h4>
+              <p>Join the official Kaya Live Chat page for community discussions, support posts, and announcements.</p>
+              <a href="https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Visit Facebook
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+              </div>
+              <h4>TikTok Channel</h4>
+              <p>Watch short video tutorials, host tips, and viral voice moments from across the platform.</p>
+              <a href="https://www.tiktok.com/@kayalivechat" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Watch TikTok
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </div>
+              <h4>YouTube Channel</h4>
+              <p>Access full walkthrough guides, earnings tutorials, and agency growth webinars.</p>
+              <a href="https://www.youtube.com/@kayalivechat" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Visit YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Support Info Box -->
+      <section class="section-spacing" style="padding-top: 20px;">
+        <div class="container">
+          <div class="holo-card" style="max-width: 860px; margin: 0 auto; text-align: center;">
+            <h3 style="margin-bottom: 14px;">Looking for Fast Agency Code Verification?</h3>
+            <p style="margin-bottom: 24px;">When applying as a host or registering an agency, you can directly mention the official invitation code <span class="code-pill">CVK6M5</span> or user ID <span class="code-pill">10244362</span> in your WhatsApp message for prioritized onboarding assistance.</p>
+            <a href="http://wa.me/6285285312276?text=Halo%20Admin%20Kaya%20Chat%2C%20saya%20ingin%20bergabung%20dengan%20Agency%20(Kode%3A%20CVK6M5)" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Send WhatsApp Direct Message
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Global Footer Component (From footer.html) -->
+  <footer class="kaya-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="/" data-view-target="view-home" aria-label="Kaya Chat Homepage">
+            <img 
+              src="http://kayachatlive.com/wp-content/uploads/2026/11/logo-kaya.webp" 
+              alt="Kaya Chat Logo" 
+              class="footer-logo"
+              width="44"
+              height="44"
+              loading="lazy"
+            >
+          </a>
+          <p>Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/" class="footer-link" data-view-target="view-home">Homepage</a></li>
+            <li><a href="/host" class="footer-link" data-view-target="view-host">Host</a></li>
+            <li><a href="/agent" class="footer-link" data-view-target="view-agent">Agent</a></li>
+            <li><a href="/contact" class="footer-link" data-view-target="view-contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact &amp; Support</h4>
+          <div class="social-links-grid">
+            <a href="https://www.instagram.com/kayalivechat" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@kayalivechat" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.threads.com/@kayalivechat" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Threads">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.263 11.097c-.03-3.486-1.92-5.586-5.111-5.586-2.13 0-3.922.963-4.863 2.499l2.062 1.438c.535-.843 1.272-1.543 2.628-1.543 1.528 0 2.318.85 2.544 2.431a15 15 0 0 0-2.236-.173c-4.125 0-6.068 1.867-6.068 4.336s1.943 3.99 4.804 3.99c3.139 0 5.013-2.115 5.781-4.735.798.361 1.348 1.204 1.348 2.47 0 3.387-3.907 5.232-7.22 5.232-4.885 0-8.077-3.207-8.077-8.424 0-6.392 4.223-10.487 9.9-10.487 3.808 0 5.69 1.671 6.97 3.914l2.108-1.475C21.44 2.078 18.331 0 13.663 0 6.227 0 1.168 5.277 1.168 12.934c0 7 4.953 11.066 10.856 11.066 4.878 0 9.809-2.846 9.809-7.716 0-2.545-1.46-4.231-3.569-5.187m-6.33 4.855c-1.077 0-2.026-.512-2.026-1.453 0-1.483 1.822-1.934 3.606-1.934.678 0 1.34.045 1.927.173-.422 1.927-1.671 3.215-3.508 3.214Z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@kayalivechat" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="http://wa.me/6285285312276" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+            <a href="https://t.me/KayaChatService" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="footer-copy">&copy; 2026 Kaya Chat. All rights reserved.</p>
+        <button class="back-to-top-btn" id="footerBackToTop" aria-label="Back to Top">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+          Back to Top
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Image Lightbox Modal Overlay (Overview on same tab as per AGENTS.md) -->
+  <div class="kaya-lightbox-modal" id="imageLightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-modal-content">
+      <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close overview popup">&times;</button>
+      <img id="lightboxImage" src="" alt="Overview preview" width="800" height="600">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Internal JavaScript (Inline in body as per AGENTS.md rules) -->
+  <script>
+    (function() {
+      // 1. Multi-page View Switcher (Toolbar & Navbar)
+      const toolbarBtns = document.querySelectorAll('.preview-toolbar-btn');
+      const viewContainers = document.querySelectorAll('.preview-view-container');
+      const navLinks = document.querySelectorAll('.nav-link, .navbar-brand a');
+      const viewTargetElements = document.querySelectorAll('[data-view-target]');
+
+      function switchView(targetViewId) {
+        // Toggle view containers
+        viewContainers.forEach(container => {
+          if (container.id === targetViewId) {
+            container.classList.add('active-view');
+          } else {
+            container.classList.remove('active-view');
+          }
+        });
+
+        // Update toolbar button states
+        toolbarBtns.forEach(btn => {
+          if (btn.getAttribute('data-target') === targetViewId) {
+            btn.classList.add('active');
+            btn.setAttribute('aria-selected', 'true');
+          } else {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-selected', 'false');
+          }
+        });
+
+        // Update nav link active states
+        navLinks.forEach(link => {
+          if (link.getAttribute('data-view-target') === targetViewId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+
+        // Close mobile drawer if open
+        const drawer = document.getElementById('mobileDrawer');
+        const toggleBtn = document.getElementById('mobileMenuToggle');
+        if (drawer && drawer.classList.contains('open')) {
+          drawer.classList.remove('open');
+          toggleBtn.classList.remove('active');
+        }
+
+        // Scroll smoothly to top of content
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      toolbarBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.getAttribute('data-target');
+          switchView(target);
+        });
+      });
+
+      viewTargetElements.forEach(el => {
+        el.addEventListener('click', (e) => {
+          const target = el.getAttribute('data-view-target');
+          if (target) {
+            e.preventDefault();
+            switchView(target);
+          }
+        });
+      });
+
+      // 2. Mobile Menu Toggle
+      const mobileToggle = document.getElementById('mobileMenuToggle');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      if (mobileToggle && mobileDrawer) {
+        mobileToggle.addEventListener('click', () => {
+          const isOpen = mobileDrawer.classList.toggle('open');
+          mobileToggle.classList.toggle('active');
+          mobileToggle.setAttribute('aria-expanded', isOpen);
+          mobileDrawer.setAttribute('aria-hidden', !isOpen);
+        });
+      }
+
+      // 3. FAQ Accordion Handler (Applies across all views)
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const trigger = item.querySelector('.faq-trigger');
+        if (trigger) {
+          trigger.addEventListener('click', () => {
+            const isActive = item.classList.contains('active');
+            const parentAccordion = item.closest('.faq-accordion');
+            if (parentAccordion) {
+              parentAccordion.querySelectorAll('.faq-item').forEach(other => {
+                other.classList.remove('active');
+                other.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+              });
+            }
+            if (!isActive) {
+              item.classList.add('active');
+              trigger.setAttribute('aria-expanded', 'true');
+            }
+          });
+        }
+      });
+
+      // 4. Image Overview Lightbox Popup Handler
+      const modal = document.getElementById('imageLightboxModal');
+      const modalImg = document.getElementById('lightboxImage');
+      const modalCaption = document.getElementById('lightboxCaption');
+      const closeBtn = document.getElementById('lightboxCloseBtn');
+      const triggers = document.querySelectorAll('.lightbox-trigger');
+
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const targetUrl = trigger.getAttribute('data-modal-target');
+          const caption = trigger.getAttribute('data-caption') || '';
+          modalImg.src = targetUrl;
+          modalImg.alt = caption;
+          modalCaption.textContent = caption;
+          modal.classList.add('active');
+          modal.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      function closeModal() {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+        modalImg.src = '';
+        document.body.style.overflow = '';
+      }
+
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+          closeModal();
+        }
+      });
+
+      // 5. Back to Top Button
+      const backToTopBtn = document.getElementById('footerBackToTop');
+      if (backToTopBtn) {
+        backToTopBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
+

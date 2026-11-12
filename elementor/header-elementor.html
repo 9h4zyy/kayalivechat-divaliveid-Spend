@@ -1,0 +1,112 @@
+<!-- ==========================================================================
+  KAYA CHAT - ELEMENTOR HEADER TEMPLATE
+  Cara Pakai di WordPress:
+  1. Buat Template Baru di "Templates" > "Theme Builder" > "Header"
+  2. Tambahkan widget "HTML" Elementor ke dalam section full width.
+  3. Paste seluruh kode di bawah ini ke dalam widget HTML tersebut.
+========================================================================== -->
+
+<header class="kaya-header" id="site-header">
+  <nav class="kaya-navbar" aria-label="Main Navigation">
+    <div class="navbar-brand">
+      <a href="/" aria-label="Kaya Chat Homepage">
+        <img 
+          src="http://kayachatlive.com/wp-content/uploads/2026/11/logo-kaya.webp" 
+          alt="Kaya Chat Official Logo" 
+          class="navbar-logo"
+          width="44"
+          height="44"
+        >
+      </a>
+    </div>
+
+    <ul class="navbar-nav">
+      <li><a href="/" class="nav-link" id="nav-home">Home</a></li>
+      <li><a href="/host" class="nav-link" id="nav-host">Host</a></li>
+      <li><a href="/agent" class="nav-link" id="nav-agent">Agent</a></li>
+      <li><a href="/contact" class="nav-link" id="nav-contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar-actions">
+      <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-download">
+        Download App
+      </a>
+      <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-nav-drawer" id="mobileDrawer" aria-hidden="true">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/host" class="nav-link">Host</a>
+    <a href="/agent" class="nav-link">Agent</a>
+    <a href="/contact" class="nav-link">Contact</a>
+    <a href="https://h5.kayachat.live/invateshare?parent_id=10244362" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-center">
+      Download Kaya Chat
+    </a>
+  </div>
+</header>
+
+<!-- Internal JavaScript for Header Navigation -->
+<script>
+  (function() {
+    const toggleBtn = document.getElementById('mobileMenuToggle');
+    const drawer = document.getElementById('mobileDrawer');
+
+    function closeDrawer() {
+      if (drawer && drawer.classList.contains('open')) {
+        drawer.classList.remove('open');
+        if (toggleBtn) {
+          toggleBtn.classList.remove('active');
+          toggleBtn.setAttribute('aria-expanded', 'false');
+        }
+        drawer.setAttribute('aria-hidden', 'true');
+      }
+    }
+
+    if (toggleBtn && drawer) {
+      toggleBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const isOpen = drawer.classList.toggle('open');
+        toggleBtn.classList.toggle('active');
+        toggleBtn.setAttribute('aria-expanded', isOpen);
+        drawer.setAttribute('aria-hidden', !isOpen);
+      });
+
+      // Close drawer when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!drawer.contains(e.target) && !toggleBtn.contains(e.target)) {
+          closeDrawer();
+        }
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closeDrawer();
+        }
+      });
+
+      // Close drawer when clicking any link inside
+      const drawerLinks = drawer.querySelectorAll('a');
+      drawerLinks.forEach(link => {
+        link.addEventListener('click', closeDrawer);
+      });
+    }
+
+    // Active state highlight based on current path
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === currentPath || (currentPath === '' && href === '/') || (currentPath.endsWith('index.html') && href === '/')) {
+        link.classList.add('active');
+      }
+    });
+  })();
+</script>
+

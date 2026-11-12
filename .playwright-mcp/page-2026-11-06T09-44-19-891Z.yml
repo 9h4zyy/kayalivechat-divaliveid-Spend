@@ -1,0 +1,43 @@
+- contentinfo [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - link "Kaya Chat Homepage" [ref=f3e6] [cursor=pointer]:
+          - /url: /
+          - img "Kaya Chat Logo" [ref=f3e7]
+        - paragraph [ref=f3e8]: Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.
+      - generic [ref=f3e9]:
+        - heading "Quick Links" [level=4] [ref=f3e10]
+        - list [ref=f3e11]:
+          - listitem [ref=f3e12]:
+            - link "Homepage" [ref=f3e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f3e14]:
+            - link "Host" [ref=f3e15] [cursor=pointer]:
+              - /url: /host
+          - listitem [ref=f3e16]:
+            - link "Agent" [ref=f3e17] [cursor=pointer]:
+              - /url: /agent
+          - listitem [ref=f3e18]:
+            - link "Contact" [ref=f3e19] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f3e20]:
+        - heading "Contact & Support" [level=4] [ref=f3e21]
+        - generic [ref=f3e22]:
+          - link "Instagram" [ref=f3e23] [cursor=pointer]:
+            - /url: https://www.instagram.com/kayalivechat
+          - link "TikTok" [ref=f3e26] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@kayalivechat
+          - link "Facebook" [ref=f3e29] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+          - link "Threads" [ref=f3e32] [cursor=pointer]:
+            - /url: https://www.threads.com/@kayalivechat
+          - link "YouTube" [ref=f3e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kayalivechat
+          - link "WhatsApp" [ref=f3e38] [cursor=pointer]:
+            - /url: http://wa.me/6285285312276
+          - link "Telegram" [ref=f3e41] [cursor=pointer]:
+            - /url: https://t.me/KayaChatService
+    - generic [ref=f3e44]:
+      - paragraph [ref=f3e45]: © 2026 Kaya Chat. All rights reserved.
+      - button "Back to Top" [ref=f3e46] [cursor=pointer]

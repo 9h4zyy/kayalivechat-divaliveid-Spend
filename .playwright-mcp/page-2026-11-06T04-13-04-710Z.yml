@@ -1,0 +1,61 @@
+- main [ref=f21e2]:
+  - generic [ref=f21e5]:
+    - generic [ref=f21e6]:
+      - heading "Get in Touch with Kaya Chat agency – We're Here to Help" [level=1] [ref=f21e7]:
+        - text: Get in Touch with Kaya Chat agency –
+        - generic [ref=f21e8]: We're Here to Help
+      - paragraph [ref=f21e9]: Need help with Kaya Chat? Reach our team on WhatsApp, Instagram, or Facebook, or send a message through the contact form for app and account questions.
+      - generic [ref=f21e10]:
+        - link "Chat on WhatsApp" [ref=f21e11] [cursor=pointer]:
+          - /url: http://wa.me/6285285312276
+        - link "Telegram Support" [ref=f21e12] [cursor=pointer]:
+          - /url: https://t.me/KayaChatService
+    - generic [ref=f21e14]:
+      - img "Kaya Chat - Ilustrasi 3D Hubungi Kami dengan Ikon Dukungan" [ref=f21e15]
+      - generic [aria-hidden]: Click to expand
+  - generic [ref=f21e17]:
+    - generic [ref=f21e18]:
+      - generic [ref=f21e19]: Official Communication
+      - heading "Reach Us Directly Across Official Platforms" [level=2] [ref=f21e20]
+      - paragraph [ref=f21e21]: Choose your preferred communication platform to consult about host registration, agency onboarding, or app assistance.
+    - generic [ref=f21e22]:
+      - generic [ref=f21e23]:
+        - heading "WhatsApp Support" [level=4] [ref=f21e27]
+        - paragraph [ref=f21e28]: Direct chat assistance for fast response on invitation codes, identity verification, and host onboarding.
+        - link "Open WhatsApp" [ref=f21e29] [cursor=pointer]:
+          - /url: http://wa.me/6285285312276
+      - generic [ref=f21e30]:
+        - heading "Telegram Channel" [level=4] [ref=f21e34]
+        - paragraph [ref=f21e35]: Connect with the official Kaya Chat agency service for announcements, guidelines, and updates.
+        - link "Open Telegram" [ref=f21e36] [cursor=pointer]:
+          - /url: https://t.me/KayaChatService
+      - generic [ref=f21e37]:
+        - heading "Instagram Direct" [level=4] [ref=f21e41]
+        - paragraph [ref=f21e42]: Follow official highlights, send direct messages, and discover featured top hosts in our community.
+        - link "Visit Instagram" [ref=f21e43] [cursor=pointer]:
+          - /url: https://www.instagram.com/kayalivechat
+      - generic [ref=f21e44]:
+        - heading "Facebook Page" [level=4] [ref=f21e48]
+        - paragraph [ref=f21e49]: Join the official Kaya Live Chat page for community discussions, support posts, and announcements.
+        - link "Visit Facebook" [ref=f21e50] [cursor=pointer]:
+          - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+      - generic [ref=f21e51]:
+        - heading "TikTok Channel" [level=4] [ref=f21e55]
+        - paragraph [ref=f21e56]: Watch short video tutorials, host tips, and viral voice moments from across the platform.
+        - link "Watch TikTok" [ref=f21e57] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@kayalivechat
+      - generic [ref=f21e58]:
+        - heading "YouTube Channel" [level=4] [ref=f21e62]
+        - paragraph [ref=f21e63]: Access full walkthrough guides, earnings tutorials, and agency growth webinars.
+        - link "Visit YouTube" [ref=f21e64] [cursor=pointer]:
+          - /url: https://www.youtube.com/@kayalivechat
+  - generic [ref=f21e67]:
+    - heading "Looking for Fast Agency Code Verification?" [level=3] [ref=f21e68]
+    - paragraph [ref=f21e69]:
+      - text: When applying as a host or registering an agency, you can directly mention the official invitation code
+      - generic [ref=f21e70] [cursor=pointer]: CVK6M5
+      - text: or user ID
+      - generic [ref=f21e71] [cursor=pointer]: "10244362"
+      - text: in your WhatsApp message for prioritized onboarding assistance.
+    - link "Send WhatsApp Direct Message" [ref=f21e72] [cursor=pointer]:
+      - /url: http://wa.me/6285285312276?text=Halo%20Admin%20Kaya%20Chat%2C%20saya%20ingin%20bergabung%20dengan%20Agency%20(Kode%3A%20CVK6M5)

@@ -1,0 +1,43 @@
+- contentinfo [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Kaya Chat Homepage" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Kaya Chat Logo" [ref=e7]
+        - paragraph [ref=e8]: Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.
+      - generic [ref=e9]:
+        - heading "Quick Links" [level=4] [ref=e10]
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Homepage" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e14]:
+            - link "Host" [ref=e15] [cursor=pointer]:
+              - /url: /host
+          - listitem [ref=e16]:
+            - link "Agent" [ref=e17] [cursor=pointer]:
+              - /url: /agent
+          - listitem [ref=e18]:
+            - link "Contact" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e20]:
+        - heading "Contact & Support" [level=4] [ref=e21]
+        - generic [ref=e22]:
+          - link "Instagram" [ref=e23] [cursor=pointer]:
+            - /url: https://www.instagram.com/kayalivechat
+          - link "TikTok" [ref=e26] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@kayalivechat
+          - link "Facebook" [ref=e29] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+          - link "Threads" [ref=e32] [cursor=pointer]:
+            - /url: https://www.threads.com/@kayalivechat
+          - link "YouTube" [ref=e35] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kayalivechat
+          - link "WhatsApp" [ref=e38] [cursor=pointer]:
+            - /url: http://wa.me/6285285312276
+          - link "Telegram" [ref=e41] [cursor=pointer]:
+            - /url: https://t.me/KayaChatService
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: © 2026 Kaya Chat. All rights reserved.
+      - button "Back to Top" [ref=e46] [cursor=pointer]

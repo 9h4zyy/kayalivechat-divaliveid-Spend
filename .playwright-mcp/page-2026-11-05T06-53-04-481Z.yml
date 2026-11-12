@@ -1,0 +1,131 @@
+- generic [ref=e1]:
+  - complementary "Preview Navigation Bar" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Kaya Live Preview
+      - generic [ref=e5]: Dark Cosmic & Holographic Glass
+    - tablist [ref=e6]:
+      - tab "Page Home (/)" [ref=e7] [cursor=pointer]
+      - tab "Page Host (/host)" [ref=e8] [cursor=pointer]
+      - tab "Page Agent (/agent)" [ref=e9] [cursor=pointer]
+      - tab "Page Contact (/contact)" [active] [selected] [ref=e10] [cursor=pointer]
+  - banner [ref=e11]:
+    - navigation "Main Navigation" [ref=e12]:
+      - link "Kaya Chat Homepage" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "Kaya Chat Official Logo" [ref=e15]
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "Home" [ref=e18] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e19]:
+          - link "Host" [ref=e20] [cursor=pointer]:
+            - /url: /host
+        - listitem [ref=e21]:
+          - link "Agent" [ref=e22] [cursor=pointer]:
+            - /url: /agent
+        - listitem [ref=e23]:
+          - link "Contact" [ref=e24] [cursor=pointer]:
+            - /url: /contact
+      - link "Download App" [ref=e26] [cursor=pointer]:
+        - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+  - main [ref=e598]:
+    - generic [ref=e600]:
+      - generic [ref=e601]: Agency Support Desk
+      - heading "Get in Touch with Kaya Chat agency – We're Here to Help" [level=1] [ref=e603]:
+        - text: Get in Touch with Kaya Chat agency –
+        - generic [ref=e604]: We're Here to Help
+      - paragraph [ref=e605]: Need help with Kaya Chat? Reach our team on WhatsApp, Instagram, or Facebook, or send a message through the contact form for app and account questions.
+      - generic [ref=e606]:
+        - link "Chat on WhatsApp" [ref=e607] [cursor=pointer]:
+          - /url: http://wa.me/6285285312276
+        - link "Telegram Support" [ref=e608] [cursor=pointer]:
+          - /url: https://t.me/KayaChatService
+    - generic [ref=e610]:
+      - generic [ref=e611]:
+        - generic [ref=e612]: Official Communication
+        - heading "Reach Us Directly Across Official Platforms" [level=2] [ref=e613]
+        - paragraph [ref=e614]: Choose your preferred communication platform to consult about host registration, agency onboarding, or app assistance.
+      - generic [ref=e615]:
+        - generic [ref=e616]:
+          - heading "WhatsApp Support" [level=4] [ref=e620]
+          - paragraph [ref=e621]: Direct chat assistance for fast response on invitation codes, identity verification, and host onboarding.
+          - link "Open WhatsApp" [ref=e622] [cursor=pointer]:
+            - /url: http://wa.me/6285285312276
+        - generic [ref=e623]:
+          - heading "Telegram Channel" [level=4] [ref=e627]
+          - paragraph [ref=e628]: Connect with the official Kaya Chat agency service for announcements, guidelines, and updates.
+          - link "Open Telegram" [ref=e629] [cursor=pointer]:
+            - /url: https://t.me/KayaChatService
+        - generic [ref=e630]:
+          - heading "Instagram Direct" [level=4] [ref=e634]
+          - paragraph [ref=e635]: Follow official highlights, send direct messages, and discover featured top hosts in our community.
+          - link "Visit Instagram" [ref=e636] [cursor=pointer]:
+            - /url: https://www.instagram.com/kayalivechat
+        - generic [ref=e637]:
+          - heading "Facebook Page" [level=4] [ref=e641]
+          - paragraph [ref=e642]: Join the official Kaya Live Chat page for community discussions, support posts, and announcements.
+          - link "Visit Facebook" [ref=e643] [cursor=pointer]:
+            - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+        - generic [ref=e644]:
+          - heading "TikTok Channel" [level=4] [ref=e648]
+          - paragraph [ref=e649]: Watch short video tutorials, host tips, and viral voice moments from across the platform.
+          - link "Watch TikTok" [ref=e650] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@kayalivechat
+        - generic [ref=e651]:
+          - heading "YouTube Channel" [level=4] [ref=e655]
+          - paragraph [ref=e656]: Access full walkthrough guides, earnings tutorials, and agency growth webinars.
+          - link "Visit YouTube" [ref=e657] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kayalivechat
+    - generic [ref=e660]:
+      - heading "Looking for Fast Agency Code Verification?" [level=3] [ref=e661]
+      - paragraph [ref=e662]:
+        - text: When applying as a host or registering an agency, you can directly mention the official invitation code
+        - generic [ref=e663] [cursor=pointer]: CVK6M5
+        - text: or user ID
+        - generic [ref=e664] [cursor=pointer]: "10244362"
+        - text: in your WhatsApp message for prioritized onboarding assistance.
+      - link "Send WhatsApp Direct Message" [ref=e665] [cursor=pointer]:
+        - /url: http://wa.me/6285285312276?text=Halo%20Admin%20Kaya%20Chat%2C%20saya%20ingin%20bergabung%20dengan%20Agency%20(Kode%3A%20CVK6M5)
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - link "Kaya Chat Homepage" [ref=e157] [cursor=pointer]:
+            - /url: /
+            - img "Kaya Chat Logo" [ref=e158]
+          - paragraph [ref=e159]: Kaya Chat is a live voice party app where people come together to talk, meet new friends, and share moments in voice rooms.
+        - generic [ref=e160]:
+          - heading "Quick Links" [level=4] [ref=e161]
+          - list [ref=e162]:
+            - listitem [ref=e163]:
+              - link "Homepage" [ref=e164] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e165]:
+              - link "Host" [ref=e166] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=e167]:
+              - link "Agent" [ref=e168] [cursor=pointer]:
+                - /url: /agent
+            - listitem [ref=e169]:
+              - link "Contact" [ref=e170] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e171]:
+          - heading "Contact & Support" [level=4] [ref=e172]
+          - generic [ref=e173]:
+            - link "Instagram" [ref=e174] [cursor=pointer]:
+              - /url: https://www.instagram.com/kayalivechat
+            - link "TikTok" [ref=e177] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@kayalivechat
+            - link "Facebook" [ref=e180] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Kaya-Live-Chat/61595319513309/
+            - link "Threads" [ref=e183] [cursor=pointer]:
+              - /url: https://www.threads.com/@kayalivechat
+            - link "YouTube" [ref=e186] [cursor=pointer]:
+              - /url: https://www.youtube.com/@kayalivechat
+            - link "WhatsApp" [ref=e189] [cursor=pointer]:
+              - /url: http://wa.me/6285285312276
+            - link "Telegram" [ref=e192] [cursor=pointer]:
+              - /url: https://t.me/KayaChatService
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: © 2026 Kaya Chat. All rights reserved.
+        - button "Back to Top" [ref=e197] [cursor=pointer]

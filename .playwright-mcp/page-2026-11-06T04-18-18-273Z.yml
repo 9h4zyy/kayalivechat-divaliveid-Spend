@@ -1,0 +1,253 @@
+- main [ref=f29e2]:
+  - generic [ref=f29e5]:
+    - generic [ref=f29e6]:
+      - heading "Build Your Team. Grow Your Kaya Chat Agency." [level=1] [ref=f29e7]:
+        - text: Build Your Team. Grow Your
+        - generic [ref=f29e8]: Kaya Chat Agency.
+      - paragraph [ref=f29e9]: Bring hosts together, support their progress, and build an active community on Kaya Chat. As an agent, you can manage a host team, invite sub-agents, and qualify for agency commissions and rewards.
+      - generic [ref=f29e10]:
+        - link "Apply as an Agent" [ref=f29e11] [cursor=pointer]:
+          - /url: https://h5.kayachat.live/applyinvatefamily?user_id=10244362&language=en
+        - link "Explore Agent Earnings" [ref=f29e12] [cursor=pointer]:
+          - /url: "#agent-earnings"
+    - generic [ref=f29e14]:
+      - img "Kaya Chat - Neon Social Live App Showcase" [ref=f29e15]
+      - generic [aria-hidden]: Click to expand
+  - generic [ref=f29e18]:
+    - generic [ref=f29e19]: Leadership Overview
+    - heading "What is Kaya Chat Agent?" [level=2] [ref=f29e20]
+    - paragraph [ref=f29e21]: A Kaya Chat Agent helps recruit, organize, and support hosts on the platform. Your role is to guide host activity, encourage quality content, and help your team follow Kaya Chat's rules.
+  - generic [ref=f29e23]:
+    - generic [ref=f29e24]:
+      - generic [ref=f29e25]: Step-by-Step Guide
+      - heading "Kaya Chat Agent Registration Guide" [level=2] [ref=f29e26]
+    - generic [ref=f29e27]:
+      - generic [ref=f29e28]:
+        - generic [ref=f29e29]:
+          - generic [ref=f29e30]: "1"
+          - generic [ref=f29e31]:
+            - strong [ref=f29e32]: Download Kaya Chat
+            - text: from Google Play or the App Store, or open the
+            - link "referral link right here" [ref=f29e33] [cursor=pointer]:
+              - /url: https://h5.kayachat.live/invateshare?parent_id=10244362
+            - text: .
+        - generic [ref=f29e34]:
+          - generic [ref=f29e35]: "2"
+          - generic [ref=f29e36]:
+            - strong [ref=f29e37]: Sign up
+            - text: using a Google account or your phone number. Google sign-up is recommended .
+        - generic [ref=f29e38]:
+          - generic [ref=f29e39]: "3"
+          - generic [ref=f29e40]:
+            - strong [ref=f29e41]: Fill in
+            - text: the required profile information.
+        - generic [ref=f29e42]:
+          - generic [ref=f29e43]: "4"
+          - generic [ref=f29e44]:
+            - strong [ref=f29e45]: Open your Profile page
+            - text: and copy your Kaya ID.
+        - generic [ref=f29e46]:
+          - generic [ref=f29e47]: "5"
+          - generic [ref=f29e48]:
+            - strong [ref=f29e49]: Open the
+            - link "official agent application link" [ref=f29e50] [cursor=pointer]:
+              - /url: https://h5.kayachat.live/applyinvatefamily?user_id=10244362&language=en
+            - text: ", then tap “Get” to request a verification code."
+        - generic [ref=f29e51]:
+          - generic [ref=f29e52]: "6"
+          - generic [ref=f29e53]:
+            - strong [ref=f29e54]: Return to Kaya Chat
+            - text: and open the message menu.
+        - generic [ref=f29e55]:
+          - generic [ref=f29e56]: "7"
+          - generic [ref=f29e57]:
+            - strong [ref=f29e58]: Tap “System Notification”
+            - text: and copy the verification code.
+        - generic [ref=f29e59]:
+          - generic [ref=f29e60]: "8"
+          - generic [ref=f29e61]:
+            - strong [ref=f29e62]: Return to the application page
+            - text: ", paste the code, and tap “Submit.”"
+        - generic [ref=f29e63]:
+          - generic [ref=f29e64]: "9"
+          - generic [ref=f29e65]:
+            - strong [ref=f29e66]: Open your Profile page
+            - text: and check “Agency Management” to view your agency information.
+      - generic [ref=f29e68]:
+        - img "Kaya - Agent Registration" [ref=f29e69]
+        - generic [aria-hidden]: Click to expand
+  - generic [ref=f29e71]:
+    - generic [ref=f29e72]:
+      - generic [ref=f29e73]: Revenue Model
+      - heading "Explore How Kaya Chat Agent Earns" [level=2] [ref=f29e74]
+    - table [ref=f29e76]:
+      - rowgroup [ref=f29e77]:
+        - row [ref=f29e78]:
+          - columnheader "Earning source" [ref=f29e79]
+          - columnheader "How it works" [ref=f29e80]
+      - rowgroup [ref=f29e81]:
+        - row [ref=f29e82]:
+          - cell "Agency commission" [ref=f29e83]
+          - cell "Earn eligible commissions based on host gift income and your agency's applicable commission rate." [ref=f29e84]
+        - row [ref=f29e85]:
+          - cell "Sub-agency commission" [ref=f29e86]
+          - cell "Qualify for commission differences associated with eligible sub-agency activity." [ref=f29e87]
+        - row [ref=f29e88]:
+          - cell "Game invitation bonus" [ref=f29e89]
+          - cell "Earn rebates from qualifying game activity by invited users." [ref=f29e90]
+        - row [ref=f29e91]:
+          - cell "Host invitation bonus" [ref=f29e92]
+          - cell "Receive diamond rewards when invited hosts reach income milestones within 30 days." [ref=f29e93]
+        - row [ref=f29e94]:
+          - cell "Agency event bonus" [ref=f29e95]
+          - cell "Explore available opportunities through Agency Ranking and Events in the app." [ref=f29e96]
+  - generic [ref=f29e98]:
+    - generic [ref=f29e99]:
+      - generic [ref=f29e100]: Commission Structure
+      - heading "Agency Commission Ratio" [level=2] [ref=f29e101]
+      - paragraph [ref=f29e102]: Your agency commission rate is linked to the valid diamond income generated by your team over the previous 30 days, excluding the current day.
+    - table [ref=f29e104]:
+      - rowgroup [ref=f29e105]:
+        - row [ref=f29e106]:
+          - columnheader "Agency level" [ref=f29e107]
+          - columnheader "Team gift income over the last 30 days" [ref=f29e108]
+          - columnheader "Host income commission ratio" [ref=f29e109]
+      - rowgroup [ref=f29e110]:
+        - row [ref=f29e111]:
+          - cell [ref=f29e112]:
+            - strong [ref=f29e113]: D
+          - cell "0–10M" [ref=f29e114]
+          - cell "12%" [ref=f29e115]
+        - row [ref=f29e116]:
+          - cell [ref=f29e117]:
+            - strong [ref=f29e118]: C
+          - cell "10M–50M" [ref=f29e119]
+          - cell "16%" [ref=f29e120]
+        - row [ref=f29e121]:
+          - cell [ref=f29e122]:
+            - strong [ref=f29e123]: B
+          - cell "50M–150M" [ref=f29e124]
+          - cell "18%" [ref=f29e125]
+        - row [ref=f29e126]:
+          - cell [ref=f29e127]:
+            - strong [ref=f29e128]: A
+          - cell "150M–300M" [ref=f29e129]
+          - cell "20%" [ref=f29e130]
+        - row [ref=f29e131]:
+          - cell [ref=f29e132]:
+            - strong [ref=f29e133]: S
+          - cell "More than 300M" [ref=f29e134]
+          - cell "22%" [ref=f29e135]
+    - generic [ref=f29e136]:
+      - text: "Notes: The commission calculation formula is:"
+      - strong [ref=f29e137]: Agent commission = Host earnings × Commission rate
+  - generic [ref=f29e139]:
+    - generic [ref=f29e140]:
+      - generic [ref=f29e141]: Multi-Tier Growth
+      - heading "Grow Beyond Your Direct Host Team" [level=2] [ref=f29e142]
+      - paragraph [ref=f29e143]: You can invite other agents to build sub-agencies under your team.
+    - table [ref=f29e145]:
+      - rowgroup [ref=f29e146]:
+        - row [ref=f29e147]:
+          - columnheader "Sub-agency level" [ref=f29e148]
+          - columnheader "Effective income over the last 30 days" [ref=f29e149]
+          - columnheader "Commission rate" [ref=f29e150]
+      - rowgroup [ref=f29e151]:
+        - row [ref=f29e152]:
+          - cell [ref=f29e153]:
+            - strong [ref=f29e154]: D
+          - cell "0–10M" [ref=f29e155]
+          - cell "12%" [ref=f29e156]
+        - row [ref=f29e157]:
+          - cell [ref=f29e158]:
+            - strong [ref=f29e159]: C
+          - cell "10M–50M" [ref=f29e160]
+          - cell "16%" [ref=f29e161]
+        - row [ref=f29e162]:
+          - cell [ref=f29e163]:
+            - strong [ref=f29e164]: B
+          - cell "50M–120M" [ref=f29e165]
+          - cell "18%" [ref=f29e166]
+        - row [ref=f29e167]:
+          - cell [ref=f29e168]:
+            - strong [ref=f29e169]: A
+          - cell "120M–300M" [ref=f29e170]
+          - cell "20%" [ref=f29e171]
+        - row [ref=f29e172]:
+          - cell [ref=f29e173]:
+            - strong [ref=f29e174]: S
+          - cell "More than 300M" [ref=f29e175]
+          - cell "22%" [ref=f29e176]
+  - generic [ref=f29e178]:
+    - generic [ref=f29e179]:
+      - generic [ref=f29e180]: Practical Breakdown
+      - heading "Commission Ratio Examples" [level=2] [ref=f29e181]
+    - generic [ref=f29e182]:
+      - generic [ref=f29e184]:
+        - img "Kaya - Agency Commission Example" [ref=f29e185]
+        - generic [aria-hidden]: Click to expand
+      - generic [ref=f29e186]:
+        - generic [ref=f29e187]:
+          - heading "1. Commission Rate Calculation" [level=4] [ref=f29e188]
+          - list [ref=f29e189]:
+            - listitem [ref=f29e190]: • A's effective total income = A + B + C + D + E + F + G + H + I + J + K = 395M (22% commission rate).
+            - listitem [ref=f29e191]: • B's effective total income = B + D + F + H + J = 148M (18% commission rate, as stated in the source).
+            - listitem [ref=f29e192]: • C's effective total income = C + E + G + I + K = 167M (20% commission rate).
+        - generic [ref=f29e193]:
+          - heading "2. Sub-agent commission formula:" [level=4] [ref=f29e194]
+          - paragraph [ref=f29e195]: • Sub-agent commission = (Master agent commission rate − Sub-agent commission rate) × total income of (T2 + T3 + T4 + T5 + T6).
+        - generic [ref=f29e196]:
+          - heading "3. Agent Commission from Sub-agents" [level=4] [ref=f29e197]
+          - list [ref=f29e198]:
+            - listitem [ref=f29e199]: • Commission A receives from B = (22% − 18%) × 148M = 5.92M.
+            - listitem [ref=f29e200]: • Commission A receives from C = (22% − 20%) × 167M = 3.34M.
+            - listitem [ref=f29e201]: • A's total commission from sub-agents = 5.92M + 3.34M = 9.26M, shown in the source as 926 USD.
+  - generic [ref=f29e203]:
+    - generic [ref=f29e204]:
+      - generic [ref=f29e205]: Platform Standards
+      - heading "Agency Requirements" [level=2] [ref=f29e206]
+      - paragraph [ref=f29e207]: To work as an agency on Kaya Chat, you must follow the platform’s requirements
+    - generic [ref=f29e208]:
+      - generic [ref=f29e209]:
+        - generic [ref=f29e210]: "1"
+        - 'heading "Minimum team: At least five active hosts." [level=4] [ref=f29e211]'
+      - generic [ref=f29e212]:
+        - generic [ref=f29e213]: "2"
+        - 'heading "Active host definition: Two hours on the mic per day, four days per week." [level=4] [ref=f29e214]'
+      - generic [ref=f29e215]:
+        - generic [ref=f29e216]: "3"
+        - 'heading "Host supervision: Guide hosts in creating quality content and ensure they follow platform rules." [level=4] [ref=f29e217]'
+      - generic [ref=f29e218]:
+        - generic [ref=f29e219]: "4"
+        - 'heading "Recruitment rules: Recruiting hosts inside the app and promoting other apps are prohibited." [level=4] [ref=f29e220]'
+      - generic [ref=f29e221]:
+        - generic [ref=f29e222]: "5"
+        - 'heading "Accountability: Agents may face penalties if their hosts violate platform rules." [level=4] [ref=f29e223]'
+  - generic [ref=f29e225]:
+    - generic [ref=f29e226]:
+      - generic [ref=f29e227]: Got Questions?
+      - heading "Frequently Asked Questions" [level=2] [ref=f29e228]
+    - generic [ref=f29e229]:
+      - generic [ref=f29e230]:
+        - button [ref=f29e231] [cursor=pointer]:
+          - heading "1. What does a Kaya Chat Agent do?" [level=4] [ref=f29e232]
+          - generic [aria-hidden] [ref=f29e233]: ▾
+        - paragraph [ref=f29e234]: An agent builds and supports a host team, invites hosts and sub-agents, monitors team activity, and helps hosts follow platform rules.
+      - generic [ref=f29e235]:
+        - button [ref=f29e236] [cursor=pointer]:
+          - heading "2. How can I earn as a Kaya Chat Agent?" [level=4] [ref=f29e237]
+          - generic [aria-hidden] [ref=f29e238]: ▾
+        - paragraph [ref=f29e239]: Eligible earning opportunities include agency commissions, sub-agency commissions, game invitation bonuses, host invitation rewards, and agency event bonuses.
+      - generic [ref=f29e240]:
+        - button [ref=f29e241] [cursor=pointer]:
+          - heading "3. How is the agency commission rate determined?" [level=4] [ref=f29e242]
+          - generic [aria-hidden] [ref=f29e243]: ▾
+        - paragraph [ref=f29e244]: The rate is linked to the qualifying diamond income generated by the agency over the previous 30 days. The applicable level determines the commission percentage.
+  - generic [ref=f29e247]:
+    - heading "Ready to Build Your Kaya Chat Agency ?" [level=2] [ref=f29e248]:
+      - text: Ready to Build Your
+      - generic [ref=f29e249]: Kaya Chat Agency
+      - text: "?"
+    - paragraph [ref=f29e250]: Start exploring the agent opportunity, bring hosts together, and learn how to develop a team on Kaya Chat.
+    - link "Become an Agent" [ref=f29e252] [cursor=pointer]:
+      - /url: https://h5.kayachat.live/applyinvatefamily?user_id=10244362&language=en
